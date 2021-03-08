@@ -1,3 +1,4 @@
+/* GENERAL */
 *{
   padding: 0;
   margin: 0;
@@ -15,11 +16,230 @@ body{
   clear: both;
 }
 
-.float-lef{
+.float-left{
   float: left;
+}
+
+.float-right{
+  float: right;
 }
 
 .container{
   width: 100%;
   min-width: 
 }
+
+.edition-black{
+  text-decoration: none;
+  color: black;
+}
+
+.edition-grey{
+  text-decoration: none;
+  color: #32495B;
+}
+
+.edition-white{
+  text-decoration: none;
+  color: white;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.bottom{
+  border: solid 0.5px;
+  border-radius: 5px;
+  padding: 8px;
+  text-align: center;
+}
+
+.bottom-oranje{
+  background-color: #FE785A;
+}
+
+.bottom-grey{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 25px;
+  padding: 4px;
+  background-color: #DADEE0;
+  border: solid 0.5px  #DADEE0;
+}
+
+
+/* Header */
+/* primo-nav */
+.menu{
+  width: 100%;
+  height: 80px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.menu.interaction{
+  background-color: rgb(238, 240, 240);
+  border-bottom: solid 1px black;
+}
+
+.menu nav{
+  height: 80px;
+  line-height: 80px;
+}
+
+.menu nav span{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.interaction:nth-child(2){
+  text-align: right;
+}
+
+
+/* secondo-nav */
+.menu img{
+  width: 10%;
+  line-height: 80px;
+  height: 80px;
+  margin: 0 20px;
+}
+
+.elementi-interni li{
+  list-style: none;
+  display: inline;
+  padding: 9px;
+}
+
+.elementi-interni i{
+  margin-left: 7px;
+}
+
+/* imagine-jumbotrom */
+.social-background{
+  width: 100%;
+  height: 500px;
+  padding-top: 3%;
+  padding-left: 16.5%;
+  padding-right: 50%;
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 61%;
+}
+
+.social-background h1 {
+  font-size: 40px;
+  color: #33475B;
+  margin-bottom: 6%;
+}
+
+.social-background .jumbo-text {
+  color: #252f36;
+  margin-bottom: 6%;
+  line-height: 25px;
+}
+
+.social-background .jumbo-bottom{
+  width: 40%;
+  margin-bottom: 6%;
+  background-color: #FE785A;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.social-background .jumbo-footer{
+  font-size: 80%;
+}
+
+.barra-sotto{
+  width: 100%;
+  height: 45px;
+  background-color: rgb(135, 233, 250);
+  border-top: solid 3px black;
+}
+
+
+/* footer */
+/* menu nav */
+footer{
+  width: 100%;
+  height: 650px;
+  padding-right: 15%;
+  padding-left: 15%;
+  background-color: #32495B;
+}
+
+.menu-footer{
+  width: 100%;
+  min-height: 350px;
+}
+
+.colomna-nav-footer{
+  padding: 6% 2%;
+  width: 25%;
+}
+
+.colomna-nav-footer h3{
+  color: white;
+}
+
+.colomna-nav-footer ul{
+  margin-top: 5%;
+  list-style: none;
+  line-height: 40px;
+  color: white;
+}
+
+.colomna-nav-footer i{
+  margin: 15px;
+}
+
+/* language-footer */
+
+.nav-language{
+  width: 100%;
+  text-align: center;
+  border-bottom: solid 0.01px white;
+  padding: 3% 0;
+}
+
+.nav-language .language li{
+  width: 100%;
+  list-style: none;
+  display: inline;
+  padding: 2%
+}
+
+/* finish-footer */
+
+.finish-footer{
+  width: 100%;
+  height: 40px;
+  margin-top: 2%;
+}
+
+.legal-footer{
+  width: 50%;
+  line-height: 40px;
+  text-align: right;
+}
+
+.legal-footer ul li{
+  display: inline;
+  color: white;
+  padding: 0 3%;
+}
+
+.copyright{
+  color: white;
+}
+
+
+
+
+
+
