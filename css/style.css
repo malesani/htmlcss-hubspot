@@ -57,6 +57,8 @@ body{
 
 .bottom-oranje{
   background-color: #FE785A;
+  color: white;
+  border-radius: 5px;
 }
 
 .bottom-grey{
@@ -68,6 +70,10 @@ body{
   border: solid 0.5px  #DADEE0;
 }
 
+.fa-check-circle{
+  padding-right: 10px;
+  color: #FE785A;
+}
 
 /* Header */
 /* primo-nav */
@@ -160,7 +166,164 @@ body{
   height: 45px;
   background-color: rgb(135, 233, 250);
   border-top: solid 3px black;
+  border-bottom: solid 3px black;;
 }
+
+
+/* main */
+/* section-1 */
+.section-1{
+  background-color: #F4F9FD;
+  padding: 1% 15%;
+}
+
+/* parte-1 */
+.parte-1{
+  width: 100%;
+  padding-top: 2%;
+}
+
+.p1-contenuto{
+  width: 100%;
+  height: 300px;
+  line-height: 180%;
+  padding: 0 15px;
+  color: #33475B;
+  text-align: center;
+}
+
+.p1-contenuto img{
+  height: 170px;
+}
+
+.p1-contenuto p{
+  font-size: 15.5px;
+  padding-top: 15px;
+}
+
+/* colomna horizontale-parte-2 */
+.parte-2{
+  width: 100%;
+}
+
+.parte-2 .p2-contenuto-N1{
+  width: 100%;
+  min-height: 270px;
+  margin-bottom: 10px;
+  padding: 3%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 
+  lightgray 1px 1px 1px,
+  lightgray -1px -1px 1px;
+  position: relative;
+}
+
+.libro-bottom{
+  width: 25%;
+  padding: 4% 5%;
+  line-height: 40px;
+}
+
+.testo-p2{
+  color: #33475B;
+  padding: 4%;
+  width: 75%;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.testo-p2 h3{
+  font-size: 25px;
+  margin-bottom: 20px ;
+}
+
+.testo-p2 p{
+  padding-right: 12%;
+}
+
+.testo-p2 h4{
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.testo-p2 li{
+  padding-right: 5%;
+  list-style: none;
+  display: inline;
+}
+
+.line-black{
+  position: absolute;
+  right: 15%;
+  bottom: 39.5%;
+  width: 35%;
+  border-bottom: solid 0.1px #33475B;
+}
+
+/* colomne verticali parte 3 */
+.parte-3{
+  width: 100%;
+  min-height: 500px;
+  padding-top: 3%;
+  text-align: center;
+  color: #33475B;
+}
+
+.parte-3 .colomna{
+  width: 32%;
+  min-height: 500px;
+  padding: 3%;
+  line-height: 190%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 
+  lightgray 1px 1px 1px,
+  lightgray -1px -1px 1px;
+}
+
+.parte-3 .colomna img{
+  height: 100px;
+}
+
+.parte-3 .colomna h2{
+  padding: 5% 0;
+}
+
+.riga-colomne-verticali{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10%;
+  border-bottom: solid 0.01px #33475B;
+}
+
+.parte-3 .colomna h3{
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.parte-3 .colomna .bottom-oranje{
+  padding: 5%;
+  margin: 0 20%;
+}
+.parte-3 .colomna ul {
+  padding-top: 10%;
+  list-style: none;
+  text-align: left;
+  line-height: 120%;
+  margin-bottom: 10%;
+}
+
+.parte-3 .colomna.center{
+  margin: 0 2%;
+}
+
+
+
+
+
+
 
 
 /* footer */
