@@ -49,7 +49,8 @@ body{
 }
 
 .bottom{
-  border: solid 0.5px;
+  color: #FE785A; ;
+  border: solid 0.5px #FE785A;
   border-radius: 5px;
   padding: 8px;
   text-align: center;
@@ -58,6 +59,7 @@ body{
 .bottom-oranje{
   background-color: #FE785A;
   color: white;
+  padding: 8px;
   border-radius: 5px;
 }
 
@@ -76,6 +78,11 @@ body{
 }
 
 /* Header */
+.spazio-fixed{
+  margin-top: 80px;
+  width: 100%;
+  height: 100%;
+}
 /* primo-nav */
 .menu{
   width: 100%;
@@ -87,6 +94,9 @@ body{
 .menu.interaction{
   background-color: rgb(238, 240, 240);
   border-bottom: solid 1px black;
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
 
 .menu nav{
@@ -102,7 +112,6 @@ body{
 .interaction:nth-child(2){
   text-align: right;
 }
-
 
 /* secondo-nav */
 .menu img{
@@ -148,7 +157,7 @@ body{
 }
 
 .social-background .jumbo-bottom{
-  width: 40%;
+  margin-right: 50%;
   margin-bottom: 6%;
   background-color: #FE785A;
   color: white;
@@ -175,6 +184,7 @@ body{
 .section-1{
   background-color: #F4F9FD;
   padding: 1% 15%;
+  padding-bottom: 3%;
 }
 
 /* parte-1 */
@@ -319,12 +329,158 @@ body{
   margin: 0 2%;
 }
 
+/* section-2 */
+/* intro */
+.section-2{
+  width: 100%;
+  height: 650px;
+  margin-bottom: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
+  line-height: 200%;
+  color: white;
+  background-image: linear-gradient(to right, #00A9B9 , #00B9A9);
+  text-align: center;
+}
 
+.section-2 h2{
+  font-size: 30px;
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 2%;
+}
+.section-2 .information-tavela{
+  padding-bottom: 5%;
+}
 
+/* tavela */
 
+.tavela{
+  width: 100%;
+}
 
+.cuadratino-tavela{
+  width: 25%;
+  min-height: 100px;
+  color: white;
+  line-height: 50px;
+  padding:2%;
+}
 
+.cuadratino-tavela .number{
+  font-size: 50px;
+}
 
+.riga-sotto-tavela{
+  border-bottom: solid white 0.5px;
+}
+
+.riga-laterali-tavela{
+  border-left: solid white 0.5px;
+  border-right: solid white 0.5px;
+}
+
+/* section-3 */
+.section-3{
+  width: 100%;
+  height: 650px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/* <!-- sponsors and stats --> */
+.contenitore-N1-section-3{
+  width: 100%;
+  padding-top: 2%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.cifre-section-3{
+  width: 25%;
+  padding: 2%;
+  line-height: 200%;
+  color: #33475B;
+  margin-left: 8%;
+}
+
+.cifre-section-3 h3{
+  font-size: 40px;
+  margin-bottom: 10%;
+}
+
+.sponsor{
+  width: 65%;
+  padding: 1%;
+}
+
+.riga-1-sponsor, .riga-2-sponsor{
+  width: 100%;
+  height: 50px;
+}
+
+.riga-2-sponsor{
+  margin-top: 0.5%;
+  margin-left: 3%;
+}
+
+.sponsor li{
+  list-style: none;
+  display: inline;
+  height: 50px;
+  line-height: 50px;
+}
+
+.sponsor li img{
+  width: 20%;
+  padding-right: 3%; 
+  vertical-align: middle;
+}
+
+/* <!-- started whith HubSpot --> */
+.contenitore-N2-section-3{
+  width: 100%;
+  padding-top: 1%;
+  min-height: 300px;
+  margin-bottom: 10%;
+}
+
+.started-HubSpot{
+  width: 40%;
+  margin-left: 3%;
+  line-height: 160%;
+  color: #33475B;
+}
+
+.started-HubSpot h2{
+  font-size: 22px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.started-HubSpot .bottom-oranje{
+  margin-right: 50%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  text-align: center;
+  padding: 5%;
+}
+
+.get-started{
+  font-size: 12px;
+}
+
+.person{
+  width: 30%;
+  height: 350px;
+  text-align: right;
+}
+
+.person img{
+  width: 100%;
+  padding-right: 6%;
+}
 
 /* footer */
 /* menu nav */
